@@ -209,3 +209,30 @@ by using dropdown dropend class
 COLLAPSIBLLE 
 
 when we want to hide and show some content
+.collapse indicates collapsible element 
+data-bs-toggle="collapse"
+data-bs-target="id"
+this id will connect the button to the content 
+by default collapsible content is hidden to show we can use show class
+
+
+Accordion 
+is used to combine a group of collapsible content
+
+
+
+Navigation bars
+inside a nav element we give navbar class
+bg-light for color navbar-light
+
+CAROUSEL / SLIDESHOW
+carousal slide class 
+data-bs-ride="carousal"
+
+carousal with indicator and control 
+carousal-indicator for the number displayed 
+
+carousal-inner inisde carousal-item
+inside this we can give images 
+
+carousal-control-prev and next 
