@@ -13,4 +13,199 @@ CDN
 --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
-//Bootstrap 5 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework.
+Bootstrap 5 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework.
+
+
+THERE ARE TWO CONTAINER CLASSES
+1. container fixed width container
+2. container-fluid full width container entire width of viewport
+
+
+//default containers have left and right padding and no top or bottom
+
+GRIDS BASIC
+
+//grid is built with 12 columns across the page
+
+col- for extra small devices<576px
+col-sm- for small devices >576px
+col-md- for medium devices >768px
+col-lg- for large devices >992px
+col-xl-for xlarge device >1200px
+col-xxl- >1400px
+
+
+
+//TYPOGRAPHY
+
+h1-h6 styled with bold and responsive font size
+
+.display-1 to -6 light font weight and larger font size
+<small> element
+<mark> is used to highlight the text
+
+<dl> element with <dt> for title and <dd> for description
+
+
+/TEXT-COLORS
+
+.text-muted,primary,success,info,warning,danger,white,dark,body
+
+for background COLORS
+similarly .bg-light
+
+text-bg-colors will highlight the text with required colors
+
+
+TABLES
+.table adds basic styling bottom lining
+.table-striped adds zebra-stripes 
+.table-bordered addss border to all sides 
+.table-dark and striped 
+.table-hover adds hover effect
+.table-borderless
+<thead> <th> class for heading
+<tbody><td> for description
+<tr> used to specify rowwise alternatives
+
+
+responsive tables 
+.table-responsive depending on screeen size sm,md,lg,xl 
+
+
+
+IMAGES
+
+.rounded class adds rounded corners
+.rounded-circle
+.img-thumbnail
+floating an image .float-start and float-end
+
+img center 
+.mx-auto and d-block
+
+
+responsive images 
+.img-fluid will scale to parent element
+
+
+ALERTS 
+.alert creates alert
+.alert-danger will give colors
+.alert-links is used to give links
+
+closing alert will have the class as .alert-dismissible
+
+animated alert
+is used to .fade and .show the alert when closed 
+
+
+BUTTTON
+
+.btn for basic button
+.btn-primary for colored button
+.btn-outline for borderd button and hover effect
+.btn-lg sm for sizing
+for full width button .d-grid
+.disabled and active is used to make unclickable
+
+
+loading buttons
+spinner-border and sm or default is large
+spinner-grow and default is large size
+
+.btn-group class is used to group buttons
+.btn-group-vertical to display vertically 
+
+dropdown buttons is also available
+.dropdown-toggle 
+inside this dropdown-mneu class
+inside this dropdown-item for displaying 
+
+
+
+BADGES
+used to display additional content
+.bagde class also we can use colors
+.rounded-pill class will make the bagde even rounded
+bagde inside an element
+
+
+PROGRESSBAR
+
+to create a progressbar we have to create container element by .progress 
+add child as progress-bar and use style to set the width of the progress bar
+
+default color is blue we can change the color 
+width and height can be set by style property as like css
+
+-->to create striped progress bar we can use class progress-bar-striped
+animated progress bar by using progress-bar-animated
+
+we can also create stacked progress bars
+
+
+
+SPINNERS
+
+loaders or spinners 
+use spinner-border default color black
+use text color utilities to add color 
+growing spinners spinner-grow class
+
+
+PAGINATIONS 
+if a website with lot of pages we can add pagination to each page
+
+first add pagination class to ul element
+.page-item to each li 
+.page-link to each link inside 
+
+.active class will highlight the current page
+
+.disabled-state for unclickable 
+we can also align the pagination position by using 
+class justify-content-center and end defaultly it will be aty left 
+
+
+LIST GROUPS 
+ul elemet with .list-group and li element with .list-group-item
+.active used to highlight the current item
+list-group-item-action will give grey color on hovered 
+disabled will diable the item
+list-group-flush will remove the borders 
+list-group-numbered will number the items
+default the list are verticallyto make horizontal 
+list-group-horizontal
+
+
+
+CARDS 
+a bordered-box withsome padding around its content 
+has options for header footer content colors etc...
+
+.card class will create basic card
+.card-body will be used to add content 
+.card-header and card footer will be used to create header and footer 
+.card-title will add title
+.card-link link will be added and a hover effect
+.card-img-top and card-img-bottom to place image 
+we can also add image inside or outside cardbody 
+
+card-img-overlay by  this we can use the image as background to the card 
+
+DROPDOWN 
+
+dropdown class
+dropdown-mneu in ul
+inside li dropdown-item 
+
+.dropdown-divider used to seperate links
+.dropdown-header used to add header
+
+similat to dropdown we can also create dropend dropstart
+by using dropdown dropend class
+
+COLLAPSIBLLE 
+
+when we want to hide and show some content
