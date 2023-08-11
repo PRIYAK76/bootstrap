@@ -169,7 +169,7 @@ class justify-content-center and end defaultly it will be aty left
 
 
 LIST GROUPS 
-ul elemet with .list-group and li element with .list-group-item
+ul element with .list-group and li element with .list-group-item
 .active used to highlight the current item
 list-group-item-action will give grey color on hovered 
 disabled will diable the item
@@ -226,13 +226,76 @@ inside a nav element we give navbar class
 bg-light for color navbar-light
 
 CAROUSEL / SLIDESHOW
-carousal slide class 
-data-bs-ride="carousal"
+carousel slide class 
+data-bs-ride="carousel"
 
-carousal with indicator and control 
-carousal-indicator for the number displayed 
+carousel with indicator and control 
+carousel-indicator for the number displayed 
 
-carousal-inner inisde carousal-item
+carousel-inner inisde carousel-item
 inside this we can give images 
 
-carousal-control-prev and next 
+carousel-control-prev and next 
+
+
+
+MODAL
+is a dialog box or popup component that is displayed on the current pages top
+
+first create a modal class 
+inside modal-dialog and inside that modal content
+3 divisions namely modal-header --> modal-title
+modal-body
+modal-footer
+
+data-bs-dismiss="modal"
+will dismiss the whole box
+
+use.fade class to add fading effect 
+give inside modal dialog as modal-fullscreen to display on full screen 
+
+
+NAVBAR 
+inside nav element class navbar 
+inside ul element navbar-nav 
+inside that li element nav-item 
+scrollable elements must match the ID of the links inside the navbar's list items 
+inside that nav-link for matching the sections 
+
+
+OFFCANVAS
+is uses as sidebar navigation menu
+
+offcanvas class
+.offcanvas-start will position the sidebar
+offcanvas-title 
+offcanvas-body
+
+data-bs-toggle
+data-bs-dismiss
+data-bs-theme
+
+
+BORDER 
+border class adds border to the element
+border border-0 will remove all borders 
+border border-top-0 will remove top borders
+
+w- class to set width of element
+w-25 w-78
+
+h- class for height of an element
+
+DARK MODE
+ if we want to add dark mode to whole web page 
+ then add data-bs-theme="dark" in <html> element
+
+
+ FLEX
+
+d-flex class will add flex 
+inside div class we can add elements
+for flex box container use .d-inline-flex
+
+default it is horizontal 
+use flex-column to display in column and flex-column-reverse to display it reverse
