@@ -6,7 +6,7 @@
     background-image: linear-gradient(to right,rgb(7, 79, 118), rgb(2,16,60));;
 }
 h6{
-    font-size: 20px ;z-index: 1;font-weight: 600;
+    font-size: 30px ;z-index: 1;font-weight: 600;
     padding: 30px;
 }
 h2{
@@ -32,7 +32,6 @@ a{
     text-align: left;
     font-family: inherit;
     font-weight: 700; outline: none !important;z-index: 1;
-    left: 30px;
 }
 .container-fluid{
     position: relative;
@@ -59,18 +58,18 @@ p{
     font-size: 20px;
 }
 .card {
-    width:50px;
+    width:150px;
     border: none;
     display: inline-block;
   }
 .card-img-top{
-    width:60px;
+    width:150px;
 }
 .card-title{
     color: #1474a2;
     text-align: center;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 20px;
 }
 /* #btun{
     background-color:#1474a2 !important;
@@ -120,13 +119,15 @@ p{
     background-color: #1474a2 !important;
     text-align: center;
     border-radius: 70px ;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-    padding:5px 45px;
-    margin-right: 40px;
+    padding:10px 90px;
+    margin-left: 60px;
     display: inline-block;
     text-align: center;
     font-family: inherit;
+    align-items: center;
+
 }
 
 .explore{
