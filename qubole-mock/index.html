@@ -9,83 +9,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typo.css">
+    <link rel="stylesheet" href="anim.css">
+    <link rel="stylesheet" href="bg-video.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
 </head>
 <body>
-    <div class="container-fluid navbar pt-5 pb-5 text-light">
-        <div class="bg-video">
-            <video  class="bg-video__content" autoplay muted loop>
-                <source src="images/website_video.mp4" type="video/mp4">
-                Your browser is not supported!!!
-            </video>
-        </div>
-        <div class="container">
-            <h2><small>THE</small><br> OPEN DATA LAKE <br> PLATFORM</h2>
-            <h5 class="pt-4" style="text-align: center;">SIGN UP FOR  A <br> FREE TRIAL</h5>
-        </div>
-        <div class="container mt-2">
-            <h6>Qubole is an open, simple, and secure data lake platform for <br> machine learning, streaming, and ad-hoc analytics.</h6>
-            <button type="button" class=" btn trialbtn"  id="startfree"><a href="#">START FREE TRIAL</a></button>
-        </div>
-        
+  
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <img  class="navbar-brand" src="images/img-2-main-logo.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse container"  id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">PLATFORM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SOLUTIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PRICING</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">SERVICE AND SUPPORT</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">RESOURCES</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">COMPANY</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li> 
+        <li class="nav-item">
+          <button type="button" class=" btn button-contact" ><a href="#">CONTACT US</a></button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class=" btn button-free" ><a href="#">FREE TRIAL</a></button>
+        </li>
+      </ul>
     </div>
-
-
-    <div class="container mt-4">
-        <h6 class="mb-3" style="text-align: center; color:#1474a2;">WHY QUBOLE?</h6>
-        <p>Qubole is a simple, open, and secure Data Lake Platform for machine learning, streaming, and ad-hoc analytics. Our platform provides end-to-end services that reduce the time and effort required to run Data pipelines, Streaming Analytics, and Machine Learning workloads on any cloud. No other platform offers the openness and data workload flexibility of Qubole while lowering cloud data lake costs by over 50 percent.</p>
-    </div>
-
-    
-<div class="container-fluid mt-5">
-    <div class="container">
-        <div class="card-group">
-            <div class="card text-center card-1">
-              <img src="images/img-open.png" class="card-img-top" alt="open ">
-              <div class="card-body">
-                <h5 class="card-title">Open, Simple, and Secure</h5>
-                <p class="card-text">Delivers faster access to petabytes of secure & trusted datasets of structured & unstructured data.</p>
-              </div>
-            </div>
-            <div class="card text-center card-2">
-              <img src="images/img-fast.png" class="card-img-top" alt="fast">
-              <div class="card-body">
-                <h5 class="card-title">Fast Adoption at Scale</h5>
-                <p class="card-text">Out-of-the-box workbench & notebooks for data scientists, data engineers, data analysts & administrators.</p>             
-             </div>
-            </div>
-            <div class="card text-center card-3">
-              <img src="images/img-zero.png" class="card-img-top" alt="zero">
-              <div class="card-body">
-                <h5 class="card-title">Near Zero Administration</h5>
-                <p class="card-text">Automates installation, configuration & maintenance of multiple open source engines, and tools.</p>
-              </div>
-            </div>
-            <div class="card text-center card-4">
-                <img src="images/img-cloud.png" class="card-img-top" alt="cloud">
-                <div class="card-body">
-                  <h5 class="card-title">Reduce Cost by 50%</h5>
-                  <p class="card-text">Workload-aware autoscaling and real-time spot buying drive down compute costs dramatically.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    
-</div>
-
-<div class="container mt-3 mb-4 butnn-3">
-  <button type="button mr-4" class="btn butn-3" ><a href="#">LEARN MORE</a></button>
-  <button type="button" class=" btn butn-3" ><a href="#">REQUEST DEMO</a></button>
-  <button type="button" class=" btn butn-3" ><a href="#">CONTACT SALES</a></button>
-</div>
-
-<div class="container-fluid explore">
-  <div class="container">
-      <h6 class="mt-3 " style="text-align: center; color:#1474a2;">EXPLORE QUBOLE</h6>
   </div>
+</nav>
 
+
+<div class="container-fluid pt-5 pb-5 mt-4 text-light">
+  <div class="bg-video">
+      <video  class="bg-video__content" autoplay muted loop>
+          <source src="images/website_video.mp4" type="video/mp4">
+          Your browser is not supported!!!
+      </video>
+  </div>
+    <div class="container">
+      <h1><small>THE</small><br> OPEN DATA LAKE <br> PLATFORM</h1>
+      <h5 class="pt-4" style="text-align: center;">SIGN UP FOR  A <br> FREE TRIAL</h5>
+  </div>
+  <div class="container mt-2">
+    <h6>Qubole is an open, simple, and secure data lake platform for <br> machine learning, streaming, and ad-hoc analytics.</h6>
+    <button type="button" class=" btn trialbtn"  id="startfree"><a href="#">START FREE TRIAL</a></button>
+  </div>
 </div>
 
+
+<div class="container mt-4">
+    <h6 class="mb-3" style="text-align: center; color:#1474a2;">WHY QUBOLE?</h6>
+    <p>Qubole is a simple, open, and secure Data Lake Platform for machine learning, streaming, and ad-hoc analytics. Our platform provides end-to-end services that reduce the time and effort required to run Data pipelines, Streaming Analytics, and Machine Learning workloads on any cloud. No other platform offers the openness and data workload flexibility of Qubole while lowering cloud data lake costs by over 50 percent.</p>
+</div>
 </body>
+
 </html>
 

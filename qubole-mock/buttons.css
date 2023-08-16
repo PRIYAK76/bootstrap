@@ -1,0 +1,45 @@
+
+#startfree{
+    background-image: linear-gradient(to right,rgb(46,216,255), rgb(47,115,175)) !important;
+    border-radius: 70px ;
+    font-size: 10px;
+    font-weight: bold;
+    padding:5px;
+    display: inline-block;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 700; outline: none !important;z-index: 1;
+}
+
+#startfree:hover{
+    background:#ff8600 !important;
+}
+
+.button-free{
+    background-color: #1474a2 !important;
+    color:white !important;
+    border-radius: 70px ;
+    font-weight: bold;
+    padding:5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700; 
+    outline: none !important;
+    margin-top: 10px;
+}
+
+.button-contact{
+    background-color: white !important;
+    color:#1474a2 !important;
+    border-radius: 70px ;
+    font-weight: bold;
+    padding:5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700; 
+    outline: none !important;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
