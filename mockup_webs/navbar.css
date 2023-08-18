@@ -1,11 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
 nav{
     background-image: linear-gradient(to right,rgb(7, 79, 118), rgb(2,16,60));;
     height: 80px;
-    width: 100%;
+    width: 60%;
   }
   label.logo{
     color: white;
-    font-size: 35px;
+
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -41,22 +50,46 @@ nav{
   #check{
     display: none;
   }
+  /* @media (max-width: 1024px){
+    label.logo{
+      width: -10px;
+      padding-left: 20px;
+    }
+    nav ul {
+      background-image:linear-gradient(to right,rgb(7, 79, 118), rgb(2,16,60)); 
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    nav ul li a{
+      font-size: 12px;
+      padding: 5px 5px;
+    }
+    bunn-4{
+      padding:2px;
+    }
+  } */
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;
-      padding-left: 50px;
+      padding-left: 20px;
     }
     nav ul li a{
       font-size: 16px;
     }
   }
-  @media (max-width: 858px){
+  @media (max-width: 1024px){
     .checkbtn{
       display: block;
+      margin-left: 20px;
+    }
+    nav{
+     
+      height: 80px;
+      width: 100vw;
     }
     ul{
       position: fixed;
-      width: 100%;
+      width:60%;
       height: 100vh;
       background: #2c3e50;
       top: 80px;
