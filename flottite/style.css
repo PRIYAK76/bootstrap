@@ -97,4 +97,79 @@ h6{
 
  h3{
     color: black;
+   text-align: left;
+   font-weight: bold;
  }
+
+
+ #trustedimg{
+    width:100px;
+    height: 100px;
+ }
+
+ #btnn3{
+    color: #69cca6;
+    border: 2px solid #69cca6;
+    background: transparent;
+    padding:10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 4%;
+    align-items: start;
+    font-family: sans-serif;
+}
+#btnn3:hover{
+    background-color: #69cca6;
+    color: #fff;
+}
+
+.whitespace{
+    width:400px;
+    height:450px;
+    background-color: #fff;
+    border-radius: 20% !important;
+}
+
+.trust{
+    text-align: right;
+    background-color: #69cca6;
+    color: #fff;
+    /* border-radius:0px 100px 0px 0px; */
+}
+
+.whitespace1{
+    width:400px;
+    height:450px;
+    background-color: #fff;
+    display: inline-block;
+}
+.card{
+    border: none;
+    display: inline-block;
+    height: 560px;
+    align-content: space-evenly;
+   
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.card-bg{
+    background-color :rgb(227, 227, 227);
+    padding:20px;
+  }
+
+  .card-text{
+    padding:5px;
+  }
+
+  .card:hover{
+    background-color: #69cca6;
+  }
+
+
+  .endusers{
+    width:100vw;
+    height:fit-content;
+    background-image: url(img/dottedbgg.jpg);
+    background-repeat: inherit;
+  }

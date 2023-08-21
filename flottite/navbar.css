@@ -76,7 +76,7 @@
       text-align: center;
       transition: all .5s;
     }
-    nav ul li{
+    nav ul li form{
       display: block;
       margin: 50px 0;
       line-height: 30px;
