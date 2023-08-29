@@ -83,9 +83,9 @@ a{
     left:0;
     height:100%;
     width:100%;
-    opacity:0.9;
+    opacity:1;
     overflow: hidden;
-    
+    z-index: -2;
 }
 .bg-video__content{
     height:100%;
