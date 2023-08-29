@@ -171,5 +171,39 @@ h6{
     width:100vw;
     height:fit-content;
     background-image: url(img/dottedbgg.jpg);
-    background-repeat: inherit;
+    background-size: cover;
+    
   }
+
+
+  .logoimgs{
+    z-index: 2;
+  }
+  .footer-bg{
+    background-color: #69cca6;
+  }
+
+  .text-reset:hover{
+    color: #009688 !important;
+  }
+
+  
+.whitespace12{
+    margin-top: -150px;
+    margin-bottom: 100px;
+    width:400px;
+    align-items: center;
+    background-color: #fff;
+    display: inline-block;
+    border-left: 100px solid transparent;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.footercontent{
+    font-size: 20px;
+
+
+}
+.owl-carousel{
+    display: block;
+}
