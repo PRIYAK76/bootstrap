@@ -11,8 +11,6 @@ CDN
 
 
 Bootstrap 5 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework.
-
-
 THERE ARE TWO CONTAINER CLASSES
 1. container fixed width container
 2. container-fluid full width container entire width of viewport
